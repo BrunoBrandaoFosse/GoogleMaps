@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+header {
+    margin: 40px auto 20px auto;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dddddd;
+}
+header p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+main {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .4);
+    margin-top: 40px;
+    width: 100%;
+    max-width: 980px;
+    text-align: center;
+    background-color: #333;
+}
+main #map {
+    height: none !important;
+    max-height: 350px !important;
+}
+
+#conteudo_mapa {
+    text-align: left;
+}
+
+#conteudo_mapa #conteudo_mapa__titulo {
+    font-size: 15px !important;
+    padding: 10px 0;
+    border-bottom: 1px solid #ededed;
+}
+
+#conteudo_mapa #conteudo_mapa__descricao {
+    font-size: 12px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ededed;
+    color: black;
+    font-weight: 400;
+}
+
+#conteudo_mapa #conteudo_mapa__site {
+    padding-top: 10px;
+}
+
+#conteudo_mapa #conteudo_mapa__site a {
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    color: red;
+}
+
+#conteudo_mapa #conteudo_mapa__site a:hover {
+    color: rgb(179, 5, 5);
+}
+
+/* #bodyContent a {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#bodyContent p {
+    font-size: 15px;
+    max-width: 400px;
+} */
